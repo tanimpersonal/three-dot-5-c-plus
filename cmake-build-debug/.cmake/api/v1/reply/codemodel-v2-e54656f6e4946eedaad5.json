@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "sand::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-sand-Debug-0c84186707d416da66c5.json",
 					"name" : "sand",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string-odd-character::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string-odd-character-Debug-e0c6a07cc3b50cdf2f6e.json",
+					"name" : "string-odd-character",
 					"projectIndex" : 0
 				}
 			]

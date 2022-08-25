@@ -108,6 +108,40 @@ build sand.exe: CXX_EXECUTABLE_LINKER__sand_Debug CMakeFiles/sand.dir/sand.cpp.o
   TARGET_IMPLIB = libsand.dll.a
   TARGET_PDB = sand.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target string-odd-character
+
+
+#############################################
+# Order-only phony target for string-odd-character
+
+build cmake_object_order_depends_target_string-odd-character: phony || CMakeFiles/string-odd-character.dir
+
+build CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj: CXX_COMPILER__string-odd-character_Debug G$:/CSE$ Funda/C++/module-3.5-prac/string-odd-character.cpp || cmake_object_order_depends_target_string-odd-character
+  DEP_FILE = CMakeFiles\string-odd-character.dir\string-odd-character.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\string-odd-character.dir
+  OBJECT_FILE_DIR = CMakeFiles\string-odd-character.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string-odd-character
+
+
+#############################################
+# Link the executable string-odd-character.exe
+
+build string-odd-character.exe: CXX_EXECUTABLE_LINKER__string-odd-character_Debug CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\string-odd-character.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = string-odd-character.exe
+  TARGET_IMPLIB = libstring-odd-character.dll.a
+  TARGET_PDB = string-odd-character.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -138,6 +172,8 @@ build module_3_5_prac: phony module_3_5_prac.exe
 
 build sand: phony sand.exe
 
+build string-odd-character: phony string-odd-character.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -146,7 +182,7 @@ build sand: phony sand.exe
 #############################################
 # Folder: G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug
 
-build all: phony module_3_5_prac.exe sand.exe
+build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe
 
 # =============================================================================
 # Built-in targets

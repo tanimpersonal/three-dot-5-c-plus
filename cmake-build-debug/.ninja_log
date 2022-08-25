@@ -1,3 +1,19 @@
 # ninja log v5
 1	2078	6831634219743770	CMakeFiles/sand.dir/sand.cpp.obj	b40efb08d91b4dbd
 2083	2348	6831634222422004	sand.exe	b4c350c87b85259e
+1	1592	6831638260952581	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1592	1801	6831638263020410	string-odd-character.exe	a68bad68584c0253
+4	1867	6831645816062311	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1868	2056	6831645817911453	string-odd-character.exe	a68bad68584c0253
+4	1711	6831648013596399	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1712	1905	6831648015496146	string-odd-character.exe	a68bad68584c0253
+5	1845	6831650031838621	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1846	2037	6831650033725399	string-odd-character.exe	a68bad68584c0253
+4	1512	6831650225091416	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1513	1677	6831650226709501	string-odd-character.exe	a68bad68584c0253
+3	1525	6831651334340818	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1526	1746	6831651336508377	string-odd-character.exe	a68bad68584c0253
+4	1470	6831653558361960	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1471	1694	6831653560559453	string-odd-character.exe	a68bad68584c0253
+3	1353	6831656666951874	CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj	f9684424700379c2
+1354	1558	6831656668969680	string-odd-character.exe	a68bad68584c0253

@@ -9,3 +9,4 @@ add_executable(module_3_5_prac
         sand.cpp)
 
 add_executable(sand sand.cpp)
+add_executable(string-odd-character string-odd-character.cpp)
