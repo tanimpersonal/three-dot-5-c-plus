@@ -10,3 +10,6 @@ add_executable(module_3_5_prac
 
 add_executable(sand sand.cpp)
 add_executable(string-odd-character string-odd-character.cpp)
+add_executable(lexicograph lexicograph.cpp)
+add_executable(string-inside string-inside.cpp)
+add_executable(divisible-by-two divisible-by-two.cpp)

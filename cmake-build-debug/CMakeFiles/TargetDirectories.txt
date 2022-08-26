@@ -1,5 +1,8 @@
 G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/module_3_5_prac.dir
 G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/sand.dir
 G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/string-odd-character.dir
+G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/lexicograph.dir
+G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/string-inside.dir
+G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/divisible-by-two.dir
 G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/edit_cache.dir
 G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/CMakeFiles/rebuild_cache.dir

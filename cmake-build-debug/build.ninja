@@ -142,6 +142,108 @@ build string-odd-character.exe: CXX_EXECUTABLE_LINKER__string-odd-character_Debu
   TARGET_IMPLIB = libstring-odd-character.dll.a
   TARGET_PDB = string-odd-character.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lexicograph
+
+
+#############################################
+# Order-only phony target for lexicograph
+
+build cmake_object_order_depends_target_lexicograph: phony || CMakeFiles/lexicograph.dir
+
+build CMakeFiles/lexicograph.dir/lexicograph.cpp.obj: CXX_COMPILER__lexicograph_Debug G$:/CSE$ Funda/C++/module-3.5-prac/lexicograph.cpp || cmake_object_order_depends_target_lexicograph
+  DEP_FILE = CMakeFiles\lexicograph.dir\lexicograph.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\lexicograph.dir
+  OBJECT_FILE_DIR = CMakeFiles\lexicograph.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lexicograph
+
+
+#############################################
+# Link the executable lexicograph.exe
+
+build lexicograph.exe: CXX_EXECUTABLE_LINKER__lexicograph_Debug CMakeFiles/lexicograph.dir/lexicograph.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lexicograph.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lexicograph.exe
+  TARGET_IMPLIB = liblexicograph.dll.a
+  TARGET_PDB = lexicograph.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string-inside
+
+
+#############################################
+# Order-only phony target for string-inside
+
+build cmake_object_order_depends_target_string-inside: phony || CMakeFiles/string-inside.dir
+
+build CMakeFiles/string-inside.dir/string-inside.cpp.obj: CXX_COMPILER__string-inside_Debug G$:/CSE$ Funda/C++/module-3.5-prac/string-inside.cpp || cmake_object_order_depends_target_string-inside
+  DEP_FILE = CMakeFiles\string-inside.dir\string-inside.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\string-inside.dir
+  OBJECT_FILE_DIR = CMakeFiles\string-inside.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string-inside
+
+
+#############################################
+# Link the executable string-inside.exe
+
+build string-inside.exe: CXX_EXECUTABLE_LINKER__string-inside_Debug CMakeFiles/string-inside.dir/string-inside.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\string-inside.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = string-inside.exe
+  TARGET_IMPLIB = libstring-inside.dll.a
+  TARGET_PDB = string-inside.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target divisible-by-two
+
+
+#############################################
+# Order-only phony target for divisible-by-two
+
+build cmake_object_order_depends_target_divisible-by-two: phony || CMakeFiles/divisible-by-two.dir
+
+build CMakeFiles/divisible-by-two.dir/divisible-by-two.cpp.obj: CXX_COMPILER__divisible-by-two_Debug G$:/CSE$ Funda/C++/module-3.5-prac/divisible-by-two.cpp || cmake_object_order_depends_target_divisible-by-two
+  DEP_FILE = CMakeFiles\divisible-by-two.dir\divisible-by-two.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\divisible-by-two.dir
+  OBJECT_FILE_DIR = CMakeFiles\divisible-by-two.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target divisible-by-two
+
+
+#############################################
+# Link the executable divisible-by-two.exe
+
+build divisible-by-two.exe: CXX_EXECUTABLE_LINKER__divisible-by-two_Debug CMakeFiles/divisible-by-two.dir/divisible-by-two.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\divisible-by-two.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = divisible-by-two.exe
+  TARGET_IMPLIB = libdivisible-by-two.dll.a
+  TARGET_PDB = divisible-by-two.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -168,9 +270,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build divisible-by-two: phony divisible-by-two.exe
+
+build lexicograph: phony lexicograph.exe
+
 build module_3_5_prac: phony module_3_5_prac.exe
 
 build sand: phony sand.exe
+
+build string-inside: phony string-inside.exe
 
 build string-odd-character: phony string-odd-character.exe
 
@@ -182,7 +290,7 @@ build string-odd-character: phony string-odd-character.exe
 #############################################
 # Folder: G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug
 
-build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe
+build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe
 
 # =============================================================================
 # Built-in targets
