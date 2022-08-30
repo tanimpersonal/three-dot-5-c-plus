@@ -380,6 +380,40 @@ build different-characters.exe: CXX_EXECUTABLE_LINKER__different-characters_Debu
   TARGET_IMPLIB = libdifferent-characters.dll.a
   TARGET_PDB = different-characters.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target three-string
+
+
+#############################################
+# Order-only phony target for three-string
+
+build cmake_object_order_depends_target_three-string: phony || CMakeFiles/three-string.dir
+
+build CMakeFiles/three-string.dir/three-string.cpp.obj: CXX_COMPILER__three-string_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/three-string.cpp || cmake_object_order_depends_target_three-string
+  DEP_FILE = CMakeFiles\three-string.dir\three-string.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\three-string.dir
+  OBJECT_FILE_DIR = CMakeFiles\three-string.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target three-string
+
+
+#############################################
+# Link the executable three-string.exe
+
+build three-string.exe: CXX_EXECUTABLE_LINKER__three-string_Debug CMakeFiles/three-string.dir/three-string.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\three-string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = three-string.exe
+  TARGET_IMPLIB = libthree-string.dll.a
+  TARGET_PDB = three-string.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -426,6 +460,8 @@ build string-inside: phony string-inside.exe
 
 build string-odd-character: phony string-odd-character.exe
 
+build three-string: phony three-string.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -434,7 +470,7 @@ build string-odd-character: phony string-odd-character.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug
 
-build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe stick.exe length.exe christmas-house.exe different-characters.exe
+build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe stick.exe length.exe christmas-house.exe different-characters.exe three-string.exe
 
 # =============================================================================
 # Built-in targets
