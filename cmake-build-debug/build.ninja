@@ -312,6 +312,40 @@ build length.exe: CXX_EXECUTABLE_LINKER__length_Debug CMakeFiles/length.dir/leng
   TARGET_IMPLIB = liblength.dll.a
   TARGET_PDB = length.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target christmas-house
+
+
+#############################################
+# Order-only phony target for christmas-house
+
+build cmake_object_order_depends_target_christmas-house: phony || CMakeFiles/christmas-house.dir
+
+build CMakeFiles/christmas-house.dir/christmas-house.cpp.obj: CXX_COMPILER__christmas-house_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/christmas-house.cpp || cmake_object_order_depends_target_christmas-house
+  DEP_FILE = CMakeFiles\christmas-house.dir\christmas-house.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\christmas-house.dir
+  OBJECT_FILE_DIR = CMakeFiles\christmas-house.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target christmas-house
+
+
+#############################################
+# Link the executable christmas-house.exe
+
+build christmas-house.exe: CXX_EXECUTABLE_LINKER__christmas-house_Debug CMakeFiles/christmas-house.dir/christmas-house.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\christmas-house.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = christmas-house.exe
+  TARGET_IMPLIB = libchristmas-house.dll.a
+  TARGET_PDB = christmas-house.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -338,6 +372,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build christmas-house: phony christmas-house.exe
+
 build divisible-by-two: phony divisible-by-two.exe
 
 build length: phony length.exe
@@ -362,7 +398,7 @@ build string-odd-character: phony string-odd-character.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug
 
-build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe stick.exe length.exe
+build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe stick.exe length.exe christmas-house.exe
 
 # =============================================================================
 # Built-in targets
