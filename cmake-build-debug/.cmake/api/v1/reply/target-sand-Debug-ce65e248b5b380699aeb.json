@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "divisible-by-two.exe"
+			"path" : "sand.exe"
 		},
 		{
-			"path" : "divisible-by-two.pdb"
+			"path" : "sand.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 11,
 				"parent" : 0
 			},
 			{
@@ -55,7 +55,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "G:/CSE Funda/C++/module-3.5-prac/."
+					"path" : "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
 				}
 			],
 			"language" : "CXX",
@@ -73,7 +73,7 @@
 			]
 		}
 	],
-	"id" : "divisible-by-two::@6890427a1f51a3e7e1df",
+	"id" : "sand::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -93,8 +93,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "divisible-by-two",
-	"nameOnDisk" : "divisible-by-two.exe",
+	"name" : "sand",
+	"nameOnDisk" : "sand.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -115,7 +115,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "divisible-by-two.cpp",
+			"path" : "sand.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "sand.exe"
+			"path" : "module_3_5_prac.exe"
 		},
 		{
-			"path" : "sand.pdb"
+			"path" : "module_3_5_prac.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 11,
+				"line" : 8,
 				"parent" : 0
 			},
 			{
@@ -55,7 +55,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "G:/CSE Funda/C++/module-3.5-prac/."
+					"path" : "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
 				}
 			],
 			"language" : "CXX",
@@ -73,7 +73,7 @@
 			]
 		}
 	],
-	"id" : "sand::@6890427a1f51a3e7e1df",
+	"id" : "module_3_5_prac::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -93,8 +93,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "sand",
-	"nameOnDisk" : "sand.exe",
+	"name" : "module_3_5_prac",
+	"nameOnDisk" : "module_3_5_prac.exe",
 	"paths" : 
 	{
 		"build" : ".",

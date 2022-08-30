@@ -1,4 +1,4 @@
-# Install script for directory: G:/CSE Funda/C++/module-3.5-prac
+# Install script for directory: D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

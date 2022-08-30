@@ -20,7 +20,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -40,7 +42,9 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -49,42 +53,56 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "divisible-by-two::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-divisible-by-two-Debug-94476a9fa0d59b98506a.json",
+					"jsonFile" : "target-divisible-by-two-Debug-eea5aaa7d7c653999bb5.json",
 					"name" : "divisible-by-two",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "length::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-length-Debug-f02b11d432f49ed0800f.json",
+					"name" : "length",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "lexicograph::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lexicograph-Debug-3df13413404b9bd31d34.json",
+					"jsonFile" : "target-lexicograph-Debug-b644016d7aa57a8e74d7.json",
 					"name" : "lexicograph",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "module_3_5_prac::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module_3_5_prac-Debug-e988c7ce599eeb246823.json",
+					"jsonFile" : "target-module_3_5_prac-Debug-5584876d28b817529ff2.json",
 					"name" : "module_3_5_prac",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "sand::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-sand-Debug-0c84186707d416da66c5.json",
+					"jsonFile" : "target-sand-Debug-ce65e248b5b380699aeb.json",
 					"name" : "sand",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "stick::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stick-Debug-787a2308f04503a8c5e4.json",
+					"name" : "stick",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "string-inside::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-string-inside-Debug-db3337f4846ac32f6cb6.json",
+					"jsonFile" : "target-string-inside-Debug-90fdf29e26827a74d627.json",
 					"name" : "string-inside",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "string-odd-character::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-string-odd-character-Debug-e0c6a07cc3b50cdf2f6e.json",
+					"jsonFile" : "target-string-odd-character-Debug-68b4a412852c6197d8ca.json",
 					"name" : "string-odd-character",
 					"projectIndex" : 0
 				}
@@ -94,8 +112,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug",
-		"source" : "G:/CSE Funda/C++/module-3.5-prac"
+		"build" : "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug",
+		"source" : "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac"
 	},
 	"version" : 
 	{

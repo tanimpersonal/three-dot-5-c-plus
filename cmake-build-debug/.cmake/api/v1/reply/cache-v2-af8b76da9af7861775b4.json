@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "g:/CSE Funda/C++/module-3.5-prac/cmake-build-debug"
+			"value" : "d:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "G:/CSE Funda/C++/module-3.5-prac"
+			"value" : "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug"
+			"value" : "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug"
 		},
 		{
 			"name" : "module_3_5_prac_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "G:/CSE Funda/C++/module-3.5-prac"
+			"value" : "D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac"
 		}
 	],
 	"kind" : "cache",

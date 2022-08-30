@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = G$:/CSE$ Funda/C++/module-3.5-prac/cmake-build-debug/
+cmake_ninja_workdir = D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target module_3_5_prac
 
@@ -49,10 +49,10 @@ cmake_ninja_workdir = G$:/CSE$ Funda/C++/module-3.5-prac/cmake-build-debug/
 
 build cmake_object_order_depends_target_module_3_5_prac: phony || CMakeFiles/module_3_5_prac.dir
 
-build CMakeFiles/module_3_5_prac.dir/sand.cpp.obj: CXX_COMPILER__module_3_5_prac_Debug G$:/CSE$ Funda/C++/module-3.5-prac/sand.cpp || cmake_object_order_depends_target_module_3_5_prac
+build CMakeFiles/module_3_5_prac.dir/sand.cpp.obj: CXX_COMPILER__module_3_5_prac_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/sand.cpp || cmake_object_order_depends_target_module_3_5_prac
   DEP_FILE = CMakeFiles\module_3_5_prac.dir\sand.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
   OBJECT_DIR = CMakeFiles\module_3_5_prac.dir
   OBJECT_FILE_DIR = CMakeFiles\module_3_5_prac.dir
 
@@ -83,10 +83,10 @@ build module_3_5_prac.exe: CXX_EXECUTABLE_LINKER__module_3_5_prac_Debug CMakeFil
 
 build cmake_object_order_depends_target_sand: phony || CMakeFiles/sand.dir
 
-build CMakeFiles/sand.dir/sand.cpp.obj: CXX_COMPILER__sand_Debug G$:/CSE$ Funda/C++/module-3.5-prac/sand.cpp || cmake_object_order_depends_target_sand
+build CMakeFiles/sand.dir/sand.cpp.obj: CXX_COMPILER__sand_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/sand.cpp || cmake_object_order_depends_target_sand
   DEP_FILE = CMakeFiles\sand.dir\sand.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
   OBJECT_DIR = CMakeFiles\sand.dir
   OBJECT_FILE_DIR = CMakeFiles\sand.dir
 
@@ -117,10 +117,10 @@ build sand.exe: CXX_EXECUTABLE_LINKER__sand_Debug CMakeFiles/sand.dir/sand.cpp.o
 
 build cmake_object_order_depends_target_string-odd-character: phony || CMakeFiles/string-odd-character.dir
 
-build CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj: CXX_COMPILER__string-odd-character_Debug G$:/CSE$ Funda/C++/module-3.5-prac/string-odd-character.cpp || cmake_object_order_depends_target_string-odd-character
+build CMakeFiles/string-odd-character.dir/string-odd-character.cpp.obj: CXX_COMPILER__string-odd-character_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/string-odd-character.cpp || cmake_object_order_depends_target_string-odd-character
   DEP_FILE = CMakeFiles\string-odd-character.dir\string-odd-character.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
   OBJECT_DIR = CMakeFiles\string-odd-character.dir
   OBJECT_FILE_DIR = CMakeFiles\string-odd-character.dir
 
@@ -151,10 +151,10 @@ build string-odd-character.exe: CXX_EXECUTABLE_LINKER__string-odd-character_Debu
 
 build cmake_object_order_depends_target_lexicograph: phony || CMakeFiles/lexicograph.dir
 
-build CMakeFiles/lexicograph.dir/lexicograph.cpp.obj: CXX_COMPILER__lexicograph_Debug G$:/CSE$ Funda/C++/module-3.5-prac/lexicograph.cpp || cmake_object_order_depends_target_lexicograph
+build CMakeFiles/lexicograph.dir/lexicograph.cpp.obj: CXX_COMPILER__lexicograph_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/lexicograph.cpp || cmake_object_order_depends_target_lexicograph
   DEP_FILE = CMakeFiles\lexicograph.dir\lexicograph.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
   OBJECT_DIR = CMakeFiles\lexicograph.dir
   OBJECT_FILE_DIR = CMakeFiles\lexicograph.dir
 
@@ -185,10 +185,10 @@ build lexicograph.exe: CXX_EXECUTABLE_LINKER__lexicograph_Debug CMakeFiles/lexic
 
 build cmake_object_order_depends_target_string-inside: phony || CMakeFiles/string-inside.dir
 
-build CMakeFiles/string-inside.dir/string-inside.cpp.obj: CXX_COMPILER__string-inside_Debug G$:/CSE$ Funda/C++/module-3.5-prac/string-inside.cpp || cmake_object_order_depends_target_string-inside
+build CMakeFiles/string-inside.dir/string-inside.cpp.obj: CXX_COMPILER__string-inside_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/string-inside.cpp || cmake_object_order_depends_target_string-inside
   DEP_FILE = CMakeFiles\string-inside.dir\string-inside.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
   OBJECT_DIR = CMakeFiles\string-inside.dir
   OBJECT_FILE_DIR = CMakeFiles\string-inside.dir
 
@@ -219,10 +219,10 @@ build string-inside.exe: CXX_EXECUTABLE_LINKER__string-inside_Debug CMakeFiles/s
 
 build cmake_object_order_depends_target_divisible-by-two: phony || CMakeFiles/divisible-by-two.dir
 
-build CMakeFiles/divisible-by-two.dir/divisible-by-two.cpp.obj: CXX_COMPILER__divisible-by-two_Debug G$:/CSE$ Funda/C++/module-3.5-prac/divisible-by-two.cpp || cmake_object_order_depends_target_divisible-by-two
+build CMakeFiles/divisible-by-two.dir/divisible-by-two.cpp.obj: CXX_COMPILER__divisible-by-two_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/divisible-by-two.cpp || cmake_object_order_depends_target_divisible-by-two
   DEP_FILE = CMakeFiles\divisible-by-two.dir\divisible-by-two.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  INCLUDES = -I"G:/CSE Funda/C++/module-3.5-prac/."
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
   OBJECT_DIR = CMakeFiles\divisible-by-two.dir
   OBJECT_FILE_DIR = CMakeFiles\divisible-by-two.dir
 
@@ -244,12 +244,80 @@ build divisible-by-two.exe: CXX_EXECUTABLE_LINKER__divisible-by-two_Debug CMakeF
   TARGET_IMPLIB = libdivisible-by-two.dll.a
   TARGET_PDB = divisible-by-two.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target stick
+
+
+#############################################
+# Order-only phony target for stick
+
+build cmake_object_order_depends_target_stick: phony || CMakeFiles/stick.dir
+
+build CMakeFiles/stick.dir/stick.cpp.obj: CXX_COMPILER__stick_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/stick.cpp || cmake_object_order_depends_target_stick
+  DEP_FILE = CMakeFiles\stick.dir\stick.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\stick.dir
+  OBJECT_FILE_DIR = CMakeFiles\stick.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stick
+
+
+#############################################
+# Link the executable stick.exe
+
+build stick.exe: CXX_EXECUTABLE_LINKER__stick_Debug CMakeFiles/stick.dir/stick.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\stick.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = stick.exe
+  TARGET_IMPLIB = libstick.dll.a
+  TARGET_PDB = stick.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target length
+
+
+#############################################
+# Order-only phony target for length
+
+build cmake_object_order_depends_target_length: phony || CMakeFiles/length.dir
+
+build CMakeFiles/length.dir/length.cpp.obj: CXX_COMPILER__length_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/length.cpp || cmake_object_order_depends_target_length
+  DEP_FILE = CMakeFiles\length.dir\length.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\length.dir
+  OBJECT_FILE_DIR = CMakeFiles\length.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target length
+
+
+#############################################
+# Link the executable length.exe
+
+build length.exe: CXX_EXECUTABLE_LINKER__length_Debug CMakeFiles/length.dir/length.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\length.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = length.exe
+  TARGET_IMPLIB = liblength.dll.a
+  TARGET_PDB = length.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "G:\CSE Funda\C++\module-3.5-prac\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Self Learning and Stuffs\CSE Funda\C++\module-3.5-prac\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -260,7 +328,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D "G:\CSE Funda\C++\module-3.5-prac\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"G:\CSE Funda\C++\module-3.5-prac" -B"G:\CSE Funda\C++\module-3.5-prac\cmake-build-debug""
+  COMMAND = cmd.exe /C "cd /D "D:\Self Learning and Stuffs\CSE Funda\C++\module-3.5-prac\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2022.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Self Learning and Stuffs\CSE Funda\C++\module-3.5-prac" -B"D:\Self Learning and Stuffs\CSE Funda\C++\module-3.5-prac\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -272,11 +340,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build divisible-by-two: phony divisible-by-two.exe
 
+build length: phony length.exe
+
 build lexicograph: phony lexicograph.exe
 
 build module_3_5_prac: phony module_3_5_prac.exe
 
 build sand: phony sand.exe
+
+build stick: phony stick.exe
 
 build string-inside: phony string-inside.exe
 
@@ -288,9 +360,9 @@ build string-odd-character: phony string-odd-character.exe
 # =============================================================================
 
 #############################################
-# Folder: G:/CSE Funda/C++/module-3.5-prac/cmake-build-debug
+# Folder: D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug
 
-build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe
+build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe stick.exe length.exe
 
 # =============================================================================
 # Built-in targets
