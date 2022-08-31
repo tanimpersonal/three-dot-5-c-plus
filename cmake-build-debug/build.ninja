@@ -414,6 +414,40 @@ build three-string.exe: CXX_EXECUTABLE_LINKER__three-string_Debug CMakeFiles/thr
   TARGET_IMPLIB = libthree-string.dll.a
   TARGET_PDB = three-string.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target password
+
+
+#############################################
+# Order-only phony target for password
+
+build cmake_object_order_depends_target_password: phony || CMakeFiles/password.dir
+
+build CMakeFiles/password.dir/password.cpp.obj: CXX_COMPILER__password_Debug D$:/Self$ Learning$ and$ Stuffs/CSE$ Funda/C++/module-3.5-prac/password.cpp || cmake_object_order_depends_target_password
+  DEP_FILE = CMakeFiles\password.dir\password.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  INCLUDES = -I"D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/."
+  OBJECT_DIR = CMakeFiles\password.dir
+  OBJECT_FILE_DIR = CMakeFiles\password.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target password
+
+
+#############################################
+# Link the executable password.exe
+
+build password.exe: CXX_EXECUTABLE_LINKER__password_Debug CMakeFiles/password.dir/password.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\password.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = password.exe
+  TARGET_IMPLIB = libpassword.dll.a
+  TARGET_PDB = password.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -452,6 +486,8 @@ build lexicograph: phony lexicograph.exe
 
 build module_3_5_prac: phony module_3_5_prac.exe
 
+build password: phony password.exe
+
 build sand: phony sand.exe
 
 build stick: phony stick.exe
@@ -470,7 +506,7 @@ build three-string: phony three-string.exe
 #############################################
 # Folder: D:/Self Learning and Stuffs/CSE Funda/C++/module-3.5-prac/cmake-build-debug
 
-build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe stick.exe length.exe christmas-house.exe different-characters.exe three-string.exe
+build all: phony module_3_5_prac.exe sand.exe string-odd-character.exe lexicograph.exe string-inside.exe divisible-by-two.exe stick.exe length.exe christmas-house.exe different-characters.exe three-string.exe password.exe
 
 # =============================================================================
 # Built-in targets

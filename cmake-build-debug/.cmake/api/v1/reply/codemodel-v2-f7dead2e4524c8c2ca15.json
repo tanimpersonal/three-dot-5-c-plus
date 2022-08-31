@@ -25,7 +25,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -50,7 +51,8 @@
 						7,
 						8,
 						9,
-						10
+						10,
+						11
 					]
 				}
 			],
@@ -96,6 +98,13 @@
 					"id" : "module_3_5_prac::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-module_3_5_prac-Debug-5584876d28b817529ff2.json",
 					"name" : "module_3_5_prac",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "password::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-password-Debug-6fd6110c57c7ed2e4167.json",
+					"name" : "password",
 					"projectIndex" : 0
 				},
 				{
